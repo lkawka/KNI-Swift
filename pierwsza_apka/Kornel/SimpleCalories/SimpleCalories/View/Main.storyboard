@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="64o-Nw-nRU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Dib-Ls-3be">
+            <objects>
+                <viewController id="64o-Nw-nRU" customClass="ViewController" customModule="SimpleCalories" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XKN-s4-mo5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8b3-rv-qxX">
+                                <rect key="frame" x="0.0" y="332" width="375" height="335"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add new meal:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmR-KG-hTO">
+                                        <rect key="frame" x="131.5" y="8" width="113" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfX-3k-jwJ">
+                                        <rect key="frame" x="94" y="72" width="47" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carbs:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zng-sO-pST">
+                                        <rect key="frame" x="94" y="131" width="51" height="25"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Protein:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSj-gA-i8H">
+                                        <rect key="frame" x="90" y="244" width="59" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fat:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeK-9H-G8F">
+                                        <rect key="frame" x="94" y="191" width="51" height="25"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jmO-dJ-oe1">
+                                        <rect key="frame" x="149" y="67" width="97" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="97" id="30U-jq-yXq"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D4v-Pv-UVe">
+                                        <rect key="frame" x="147" y="128" width="97" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="97" id="HWj-y0-7p5"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nU9-ge-9CV">
+                                        <rect key="frame" x="147" y="188" width="97" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGs-c7-gPu">
+                                        <rect key="frame" x="164.5" y="288" width="46" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.56312499999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="BSB-BV-Tm9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Add">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="addMeal:" destination="64o-Nw-nRU" eventType="touchUpInside" id="Lgb-VF-alo"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wFG-En-2IT">
+                                        <rect key="frame" x="149" y="241" width="97" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="3Y9-e9-aeE"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="fGs-c7-gPu" firstAttribute="centerX" secondItem="8b3-rv-qxX" secondAttribute="centerX" id="0G3-Lf-3pa"/>
+                                    <constraint firstItem="tSj-gA-i8H" firstAttribute="top" secondItem="xeK-9H-G8F" secondAttribute="bottom" constant="28" id="0lo-fJ-GhK"/>
+                                    <constraint firstItem="tfX-3k-jwJ" firstAttribute="centerY" secondItem="jmO-dJ-oe1" secondAttribute="centerY" id="2t0-3k-Fg8"/>
+                                    <constraint firstItem="wFG-En-2IT" firstAttribute="top" secondItem="nU9-ge-9CV" secondAttribute="bottom" constant="23" id="4uH-g4-37y"/>
+                                    <constraint firstItem="jmO-dJ-oe1" firstAttribute="top" secondItem="jmR-KG-hTO" secondAttribute="bottom" constant="38" id="7Es-tr-A5k"/>
+                                    <constraint firstItem="xeK-9H-G8F" firstAttribute="centerY" secondItem="nU9-ge-9CV" secondAttribute="centerY" id="An9-SG-fuL"/>
+                                    <constraint firstItem="xeK-9H-G8F" firstAttribute="centerX" secondItem="tSj-gA-i8H" secondAttribute="centerX" id="ByX-gU-PSt"/>
+                                    <constraint firstItem="D4v-Pv-UVe" firstAttribute="leading" secondItem="nU9-ge-9CV" secondAttribute="leading" id="DWA-7W-HEZ"/>
+                                    <constraint firstItem="jmR-KG-hTO" firstAttribute="top" secondItem="8b3-rv-qxX" secondAttribute="topMargin" id="F6W-10-p7r"/>
+                                    <constraint firstItem="tfX-3k-jwJ" firstAttribute="leading" secondItem="zng-sO-pST" secondAttribute="leading" id="JHo-5F-i3b"/>
+                                    <constraint firstItem="fGs-c7-gPu" firstAttribute="top" secondItem="wFG-En-2IT" secondAttribute="bottom" constant="17" id="JZJ-h7-1Jm"/>
+                                    <constraint firstItem="xeK-9H-G8F" firstAttribute="top" secondItem="zng-sO-pST" secondAttribute="bottom" constant="35" id="L0t-CA-JB5"/>
+                                    <constraint firstItem="D4v-Pv-UVe" firstAttribute="leading" secondItem="zng-sO-pST" secondAttribute="trailing" constant="2" id="QHA-Jy-dQ4"/>
+                                    <constraint firstItem="D4v-Pv-UVe" firstAttribute="top" secondItem="jmO-dJ-oe1" secondAttribute="bottom" constant="31" id="SNY-7D-LlI"/>
+                                    <constraint firstItem="tSj-gA-i8H" firstAttribute="leading" secondItem="8b3-rv-qxX" secondAttribute="leading" constant="90" id="W3d-Mh-qb8"/>
+                                    <constraint firstItem="D4v-Pv-UVe" firstAttribute="trailing" secondItem="nU9-ge-9CV" secondAttribute="trailing" id="cch-I0-syb"/>
+                                    <constraint firstItem="jmR-KG-hTO" firstAttribute="centerX" secondItem="fGs-c7-gPu" secondAttribute="centerX" id="eqv-b8-df1"/>
+                                    <constraint firstItem="jmO-dJ-oe1" firstAttribute="leading" secondItem="wFG-En-2IT" secondAttribute="leading" id="gAR-IO-FkA"/>
+                                    <constraint firstAttribute="bottom" secondItem="tSj-gA-i8H" secondAttribute="bottom" constant="70" id="iiU-uu-Jqf"/>
+                                    <constraint firstAttribute="bottom" secondItem="fGs-c7-gPu" secondAttribute="bottom" constant="17" id="lVj-pf-Y1d"/>
+                                    <constraint firstItem="zng-sO-pST" firstAttribute="centerY" secondItem="D4v-Pv-UVe" secondAttribute="centerY" id="nZb-j8-WTe"/>
+                                    <constraint firstItem="nU9-ge-9CV" firstAttribute="top" secondItem="D4v-Pv-UVe" secondAttribute="bottom" constant="30" id="nay-tN-g3x"/>
+                                    <constraint firstItem="jmO-dJ-oe1" firstAttribute="leading" secondItem="tfX-3k-jwJ" secondAttribute="trailing" constant="8" symbolic="YES" id="neU-EX-n4f"/>
+                                    <constraint firstItem="tSj-gA-i8H" firstAttribute="baseline" secondItem="wFG-En-2IT" secondAttribute="baseline" id="nq8-X5-Odm"/>
+                                    <constraint firstItem="zng-sO-pST" firstAttribute="trailing" secondItem="xeK-9H-G8F" secondAttribute="trailing" id="pxF-fF-eI1"/>
+                                    <constraint firstItem="zng-sO-pST" firstAttribute="leading" secondItem="xeK-9H-G8F" secondAttribute="leading" id="wPk-Pq-5Qn"/>
+                                    <constraint firstItem="jmO-dJ-oe1" firstAttribute="trailing" secondItem="wFG-En-2IT" secondAttribute="trailing" id="xvl-dp-sVj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cfb-Qe-q69">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="332"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qFZ-ZF-SOw" customClass="GTProgressBar" customModule="GTProgressBar">
+                                <rect key="frame" x="275.5" y="193" width="83.5" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83.5" id="GB9-iK-qAW"/>
+                                    <constraint firstAttribute="height" constant="28" id="RXy-Bj-iRk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelTextColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barBorderColor">
+                                        <color key="value" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barFillColor">
+                                        <color key="value" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barBackgroundColor">
+                                        <color key="value" red="0.0" green="0.99143940210000003" blue="1" alpha="0.26679687499999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barFillInset">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelPositionInt">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressLabelInsetTop">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="directionInt">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a2K-YI-6eI" customClass="GTProgressBar" customModule="GTProgressBar">
+                                <rect key="frame" x="16" y="193" width="84.5" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84.5" id="SUs-lE-gLs"/>
+                                    <constraint firstAttribute="height" constant="28" id="tp8-Ub-WED"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelTextColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barBorderColor">
+                                        <color key="value" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barFillColor">
+                                        <color key="value" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barBackgroundColor">
+                                        <color key="value" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="0.46644531249999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barFillInset">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelPositionInt">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressLabelInsetTop">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="directionInt">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="peE-kn-47k" customClass="GTProgressBar" customModule="GTProgressBar">
+                                <rect key="frame" x="145.5" y="193" width="84" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="opv-T2-OK0"/>
+                                    <constraint firstAttribute="height" constant="28" id="pjN-Lt-Ida"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelTextColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barBorderColor">
+                                        <color key="value" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barFillColor">
+                                        <color key="value" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barBackgroundColor">
+                                        <color key="value" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="0.44632812500000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barFillInset">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelPositionInt">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressLabelInsetTop">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="directionInt">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Calories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1f1-lD-TiZ">
+                                <rect key="frame" x="135" y="20" width="104" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Protein" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6B-jo-mdF">
+                                <rect key="frame" x="275.5" y="153" width="83.5" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rzl-he-o2f">
+                                <rect key="frame" x="145.5" y="153" width="84" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carbs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4Q-T5-ZfI">
+                                <rect key="frame" x="16" y="153" width="84.5" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="000/160g" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dj9-SC-JKM">
+                                <rect key="frame" x="275.5" y="170" width="83.5" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="000/100g" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2k-Ic-3Zk">
+                                <rect key="frame" x="149.5" y="170" width="80" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="R4t-8n-18e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="000/220g" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lxh-mn-qzI">
+                                <rect key="frame" x="16" y="170" width="92.5" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000/2137kcal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esH-a4-Gxb">
+                                <rect key="frame" x="131" y="49" width="112" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nZE-mP-v8V" customClass="GTProgressBar" customModule="GTProgressBar">
+                                <rect key="frame" x="67" y="70" width="240" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelTextColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barBorderColor">
+                                        <color key="value" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barFillColor">
+                                        <color key="value" red="1" green="0.57637232540000005" blue="0.0" alpha="0.99687499999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barBackgroundColor">
+                                        <color key="value" red="1" green="0.57637232540000005" blue="0.0" alpha="0.45296874999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barFillInset">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelPositionInt">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressLabelInsetTop">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="directionInt">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="o4Q-T5-ZfI" firstAttribute="top" secondItem="nZE-mP-v8V" secondAttribute="bottom" constant="45" id="0EM-Xw-wVi"/>
+                            <constraint firstItem="esH-a4-Gxb" firstAttribute="leading" secondItem="UKb-jJ-2CX" secondAttribute="leading" constant="131" id="0TN-zV-tEc"/>
+                            <constraint firstItem="peE-kn-47k" firstAttribute="top" secondItem="x2k-Ic-3Zk" secondAttribute="bottom" constant="2" id="0bI-RC-iOc"/>
+                            <constraint firstItem="Lxh-mn-qzI" firstAttribute="baseline" secondItem="x2k-Ic-3Zk" secondAttribute="baseline" id="4Vv-7q-dMm"/>
+                            <constraint firstItem="1f1-lD-TiZ" firstAttribute="top" secondItem="UKb-jJ-2CX" secondAttribute="top" id="52l-iV-Dcq"/>
+                            <constraint firstItem="esH-a4-Gxb" firstAttribute="top" secondItem="1f1-lD-TiZ" secondAttribute="bottom" constant="8" symbolic="YES" id="5z4-XX-TE5"/>
+                            <constraint firstItem="o4Q-T5-ZfI" firstAttribute="baseline" secondItem="Rzl-he-o2f" secondAttribute="baseline" id="9kB-X8-YsZ"/>
+                            <constraint firstItem="o4Q-T5-ZfI" firstAttribute="top" secondItem="XKN-s4-mo5" secondAttribute="top" constant="153" id="A0p-Vs-KUA"/>
+                            <constraint firstItem="1f1-lD-TiZ" firstAttribute="centerX" secondItem="esH-a4-Gxb" secondAttribute="centerX" id="Ahm-Fp-5K8"/>
+                            <constraint firstItem="esH-a4-Gxb" firstAttribute="centerX" secondItem="nZE-mP-v8V" secondAttribute="centerX" id="C1y-Qz-qMM"/>
+                            <constraint firstItem="Rzl-he-o2f" firstAttribute="leading" secondItem="o4Q-T5-ZfI" secondAttribute="trailing" constant="45" id="D4P-iM-1hj"/>
+                            <constraint firstItem="x2k-Ic-3Zk" firstAttribute="leading" secondItem="Lxh-mn-qzI" secondAttribute="trailing" constant="41" id="HHk-Wm-H96"/>
+                            <constraint firstItem="UKb-jJ-2CX" firstAttribute="trailing" secondItem="qFZ-ZF-SOw" secondAttribute="trailing" constant="16" id="JqH-UB-WN3"/>
+                            <constraint firstItem="f6B-jo-mdF" firstAttribute="trailing" secondItem="Dj9-SC-JKM" secondAttribute="trailing" id="KWv-lR-Qh2"/>
+                            <constraint firstItem="Rzl-he-o2f" firstAttribute="baseline" secondItem="f6B-jo-mdF" secondAttribute="baseline" id="MMn-vR-P2L"/>
+                            <constraint firstItem="Rzl-he-o2f" firstAttribute="leading" secondItem="Lxh-mn-qzI" secondAttribute="trailing" constant="37" id="PQH-Yt-QKB"/>
+                            <constraint firstItem="nZE-mP-v8V" firstAttribute="top" secondItem="esH-a4-Gxb" secondAttribute="bottom" id="PQe-RT-JcD"/>
+                            <constraint firstItem="8b3-rv-qxX" firstAttribute="top" secondItem="Cfb-Qe-q69" secondAttribute="bottom" id="R9V-y6-v1v"/>
+                            <constraint firstItem="Cfb-Qe-q69" firstAttribute="top" secondItem="XKN-s4-mo5" secondAttribute="top" id="RvD-5T-W9b"/>
+                            <constraint firstItem="o4Q-T5-ZfI" firstAttribute="leading" secondItem="XKN-s4-mo5" secondAttribute="leadingMargin" id="SAu-b3-w9n"/>
+                            <constraint firstItem="Cfb-Qe-q69" firstAttribute="trailing" secondItem="8b3-rv-qxX" secondAttribute="trailing" id="VGL-kS-oKy"/>
+                            <constraint firstItem="Cfb-Qe-q69" firstAttribute="centerX" secondItem="Rzl-he-o2f" secondAttribute="centerX" id="a1a-QI-bfH"/>
+                            <constraint firstItem="Cfb-Qe-q69" firstAttribute="leading" secondItem="XKN-s4-mo5" secondAttribute="leading" id="aP9-AT-RkJ"/>
+                            <constraint firstItem="a2K-YI-6eI" firstAttribute="leading" secondItem="UKb-jJ-2CX" secondAttribute="leading" constant="16" id="aXg-yk-axM"/>
+                            <constraint firstItem="o4Q-T5-ZfI" firstAttribute="leading" secondItem="Lxh-mn-qzI" secondAttribute="leading" id="al5-LV-9kU"/>
+                            <constraint firstItem="Rzl-he-o2f" firstAttribute="trailing" secondItem="x2k-Ic-3Zk" secondAttribute="trailing" id="brI-jB-bln"/>
+                            <constraint firstItem="f6B-jo-mdF" firstAttribute="trailing" secondItem="XKN-s4-mo5" secondAttribute="trailingMargin" id="ea2-XL-Eri"/>
+                            <constraint firstItem="nZE-mP-v8V" firstAttribute="leading" secondItem="UKb-jJ-2CX" secondAttribute="leading" constant="67" id="hut-nb-nUT"/>
+                            <constraint firstItem="8b3-rv-qxX" firstAttribute="bottom" secondItem="UKb-jJ-2CX" secondAttribute="bottom" id="hzX-9A-sER"/>
+                            <constraint firstAttribute="trailing" secondItem="Cfb-Qe-q69" secondAttribute="trailing" id="kQZ-m8-j2O"/>
+                            <constraint firstItem="x2k-Ic-3Zk" firstAttribute="baseline" secondItem="Dj9-SC-JKM" secondAttribute="baseline" id="lhN-Q5-ioZ"/>
+                            <constraint firstItem="nZE-mP-v8V" firstAttribute="centerX" secondItem="Rzl-he-o2f" secondAttribute="centerX" id="mjo-3U-EzE"/>
+                            <constraint firstItem="a2K-YI-6eI" firstAttribute="top" secondItem="Lxh-mn-qzI" secondAttribute="bottom" constant="2" id="oOg-JY-QHy"/>
+                            <constraint firstItem="qFZ-ZF-SOw" firstAttribute="top" secondItem="Dj9-SC-JKM" secondAttribute="bottom" constant="2" id="tNb-xS-n0I"/>
+                            <constraint firstItem="Cfb-Qe-q69" firstAttribute="leading" secondItem="8b3-rv-qxX" secondAttribute="leading" id="tVC-cF-kjK"/>
+                            <constraint firstItem="f6B-jo-mdF" firstAttribute="leading" secondItem="Dj9-SC-JKM" secondAttribute="leading" id="wuH-UQ-Q4e"/>
+                            <constraint firstItem="f6B-jo-mdF" firstAttribute="leading" secondItem="Rzl-he-o2f" secondAttribute="trailing" constant="46" id="yIT-PS-1eK"/>
+                            <constraint firstItem="1f1-lD-TiZ" firstAttribute="leading" secondItem="UKb-jJ-2CX" secondAttribute="leading" constant="135" id="yjL-UL-afd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UKb-jJ-2CX"/>
+                    </view>
+                    <connections>
+                        <outlet property="TotalCalories" destination="esH-a4-Gxb" id="E3D-zt-aJO"/>
+                        <outlet property="TotalCarbs" destination="Lxh-mn-qzI" id="LLQ-Cr-h5F"/>
+                        <outlet property="caloriesBar" destination="nZE-mP-v8V" id="SWW-Gv-MXC"/>
+                        <outlet property="carbsBar" destination="a2K-YI-6eI" id="2th-pZ-WnC"/>
+                        <outlet property="carbsTextField" destination="D4v-Pv-UVe" id="mpz-0Y-iYh"/>
+                        <outlet property="fatBar" destination="peE-kn-47k" id="QHS-BS-GUL"/>
+                        <outlet property="fatTextField" destination="nU9-ge-9CV" id="Vb8-Pb-nfR"/>
+                        <outlet property="proteinBar" destination="qFZ-ZF-SOw" id="Yx7-SH-eDc"/>
+                        <outlet property="proteinTextField" destination="wFG-En-2IT" id="FJo-F8-1J0"/>
+                        <outlet property="totalCalories" destination="esH-a4-Gxb" id="PJR-tf-dnC"/>
+                        <outlet property="totalCarbs" destination="Lxh-mn-qzI" id="GIU-D6-zjR"/>
+                        <outlet property="totalFat" destination="x2k-Ic-3Zk" id="XyF-QE-9Er"/>
+                        <outlet property="totalProtein" destination="Dj9-SC-JKM" id="iFa-Ja-zr5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GZG-mj-C98" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="217.24137931034485"/>
+        </scene>
+    </scenes>
+</document>

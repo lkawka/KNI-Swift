@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1469ACC8E2D3163D77256D4C /* Pods_SimpleCalories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3865697AB10756DC9E3B4B9 /* Pods_SimpleCalories.framework */; };
+		5F0A48EA204C22A700A9B197 /* UserTargets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A48E9204C22A700A9B197 /* UserTargets.swift */; };
+		5F2F014A204B602C00566DF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F0149204B602C00566DF9 /* Main.storyboard */; };
+		5FBFA7EB204C0BC9008D60BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBFA7EA204C0BC9008D60BF /* AppDelegate.swift */; };
+		5FBFA7ED204C0BC9008D60BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBFA7EC204C0BC9008D60BF /* ViewController.swift */; };
+		5FBFA7F2204C0BC9008D60BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBFA7F1204C0BC9008D60BF /* Assets.xcassets */; };
+		5FBFA7F5204C0BC9008D60BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBFA7F3204C0BC9008D60BF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F0A48E9204C22A700A9B197 /* UserTargets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTargets.swift; sourceTree = "<group>"; };
+		5F2F0149204B602C00566DF9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5FBFA7E7204C0BC9008D60BF /* SimpleCalories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalories.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBFA7EA204C0BC9008D60BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FBFA7EC204C0BC9008D60BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FBFA7F1204C0BC9008D60BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FBFA7F4204C0BC9008D60BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FBFA7F6204C0BC9008D60BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A351A979901D0B43CE8D03 /* Pods-SimpleCalories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCalories.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCalories/Pods-SimpleCalories.release.xcconfig"; sourceTree = "<group>"; };
+		C3865697AB10756DC9E3B4B9 /* Pods_SimpleCalories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCalories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43F485E9E20FA2032AA857A /* Pods-SimpleCalories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCalories.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCalories/Pods-SimpleCalories.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FBFA7E4204C0BC9008D60BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1469ACC8E2D3163D77256D4C /* Pods_SimpleCalories.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D1C5ACC2A9B434E152EA01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C43F485E9E20FA2032AA857A /* Pods-SimpleCalories.debug.xcconfig */,
+				62A351A979901D0B43CE8D03 /* Pods-SimpleCalories.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F0A48E8204C227200A9B197 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F0A48E9204C22A700A9B197 /* UserTargets.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FBFA7DE204C0BC9008D60BF = {
+			isa = PBXGroup;
+			children = (
+				5FBFA7E9204C0BC9008D60BF /* SimpleCalories */,
+				5FBFA7E8204C0BC9008D60BF /* Products */,
+				17D1C5ACC2A9B434E152EA01 /* Pods */,
+				997F785568AEF20AF3F92267 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FBFA7E8204C0BC9008D60BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FBFA7E7204C0BC9008D60BF /* SimpleCalories.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FBFA7E9204C0BC9008D60BF /* SimpleCalories */ = {
+			isa = PBXGroup;
+			children = (
+				5FBFA7EA204C0BC9008D60BF /* AppDelegate.swift */,
+				5FBFA7FD204C0BC9008D60BF /* Controller */,
+				5FBFA7FC204C0BC9008D60BF /* View */,
+				5F0A48E8204C227200A9B197 /* Model */,
+				5FBFA7F1204C0BC9008D60BF /* Assets.xcassets */,
+				5FBFA7F3204C0BC9008D60BF /* LaunchScreen.storyboard */,
+				5FBFA7F6204C0BC9008D60BF /* Info.plist */,
+			);
+			path = SimpleCalories;
+			sourceTree = "<group>";
+		};
+		5FBFA7FC204C0BC9008D60BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F0149204B602C00566DF9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5FBFA7FD204C0BC9008D60BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5FBFA7EC204C0BC9008D60BF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		997F785568AEF20AF3F92267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3865697AB10756DC9E3B4B9 /* Pods_SimpleCalories.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FBFA7E6204C0BC9008D60BF /* SimpleCalories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBFA7F9204C0BC9008D60BF /* Build configuration list for PBXNativeTarget "SimpleCalories" */;
+			buildPhases = (
+				EB45F80EB82A1DBC260B9D7E /* [CP] Check Pods Manifest.lock */,
+				5FBFA7E3204C0BC9008D60BF /* Sources */,
+				5FBFA7E4204C0BC9008D60BF /* Frameworks */,
+				5FBFA7E5204C0BC9008D60BF /* Resources */,
+				F999DC3B9D88E5E1C948333B /* [CP] Embed Pods Frameworks */,
+				FC2141A5B18C4861E61390C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCalories;
+			productName = SimpleCalories;
+			productReference = 5FBFA7E7204C0BC9008D60BF /* SimpleCalories.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FBFA7DF204C0BC9008D60BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kornel Skorka";
+				TargetAttributes = {
+					5FBFA7E6204C0BC9008D60BF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5FBFA7E2204C0BC9008D60BF /* Build configuration list for PBXProject "SimpleCalories" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FBFA7DE204C0BC9008D60BF;
+			productRefGroup = 5FBFA7E8204C0BC9008D60BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FBFA7E6204C0BC9008D60BF /* SimpleCalories */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FBFA7E5204C0BC9008D60BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2F014A204B602C00566DF9 /* Main.storyboard in Resources */,
+				5FBFA7F5204C0BC9008D60BF /* LaunchScreen.storyboard in Resources */,
+				5FBFA7F2204C0BC9008D60BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB45F80EB82A1DBC260B9D7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleCalories-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F999DC3B9D88E5E1C948333B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCalories/Pods-SimpleCalories-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTProgressBar/GTProgressBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTProgressBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCalories/Pods-SimpleCalories-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC2141A5B18C4861E61390C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCalories/Pods-SimpleCalories-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FBFA7E3204C0BC9008D60BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBFA7ED204C0BC9008D60BF /* ViewController.swift in Sources */,
+				5FBFA7EB204C0BC9008D60BF /* AppDelegate.swift in Sources */,
+				5F0A48EA204C22A700A9B197 /* UserTargets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FBFA7F3204C0BC9008D60BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FBFA7F4204C0BC9008D60BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FBFA7F7204C0BC9008D60BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FBFA7F8204C0BC9008D60BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FBFA7FA204C0BC9008D60BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43F485E9E20FA2032AA857A /* Pods-SimpleCalories.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMWM9G869M;
+				INFOPLIST_FILE = SimpleCalories/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skorkakornel.SimpleCalories;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FBFA7FB204C0BC9008D60BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A351A979901D0B43CE8D03 /* Pods-SimpleCalories.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMWM9G869M;
+				INFOPLIST_FILE = SimpleCalories/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skorkakornel.SimpleCalories;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FBFA7E2204C0BC9008D60BF /* Build configuration list for PBXProject "SimpleCalories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBFA7F7204C0BC9008D60BF /* Debug */,
+				5FBFA7F8204C0BC9008D60BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBFA7F9204C0BC9008D60BF /* Build configuration list for PBXNativeTarget "SimpleCalories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBFA7FA204C0BC9008D60BF /* Debug */,
+				5FBFA7FB204C0BC9008D60BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FBFA7DF204C0BC9008D60BF /* Project object */;
+}
