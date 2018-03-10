@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/lukkaw/Desktop/kodzenie/projects/KNI-Swift/pierwsza_apka/Kornel/SimpleCalories/build/Debug-iphonesimulator/GTProgressBar/GTProgressBar.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTProgressBar-Swift.h",
+          'external-contents': "/Users/lukkaw/Desktop/kodzenie/projects/KNI-Swift/pierwsza_apka/Kornel/SimpleCalories/build/Debug-iphonesimulator/GTProgressBar/GTProgressBar.framework/Headers/GTProgressBar-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTProgressBar-umbrella.h",
+          'external-contents': "/Users/lukkaw/Desktop/kodzenie/projects/KNI-Swift/pierwsza_apka/Kornel/SimpleCalories/Pods/Target Support Files/GTProgressBar/GTProgressBar-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukkaw/Desktop/kodzenie/projects/KNI-Swift/pierwsza_apka/Kornel/SimpleCalories/build/Debug-iphonesimulator/GTProgressBar/GTProgressBar.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukkaw/Desktop/kodzenie/projects/KNI-Swift/pierwsza_apka/Kornel/SimpleCalories/build/Pods.build/Debug-iphonesimulator/GTProgressBar.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

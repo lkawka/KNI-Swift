@@ -1,0 +1,10 @@
+framework module GTProgressBar {
+  umbrella header "GTProgressBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module GTProgressBar.__Swift {
+    exclude header "GTProgressBar-Swift.h"
+}
