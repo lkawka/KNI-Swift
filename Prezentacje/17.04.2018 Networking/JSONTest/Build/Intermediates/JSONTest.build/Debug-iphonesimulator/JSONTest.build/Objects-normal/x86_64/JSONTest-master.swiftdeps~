@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "64688b55a29e7930409af75c2c530e99"
+build_time: [1523983288, 593771000]
+inputs:
+  "/Users/Rafal/Desktop/prezkaNetworking/JSONTest/JSONTest/ViewController.swift": [1523983288, 0]
+  "/Users/Rafal/Desktop/prezkaNetworking/JSONTest/JSONTest/AppDelegate.swift": [1523950688, 0]
